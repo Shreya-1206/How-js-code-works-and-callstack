@@ -12,3 +12,4 @@
 This helps to keep the track of the order of  execution contexts . Deep function invocation context and even deletes each execution context after it returns the value. And there is nothing to execute.
 
 And when the sqaure function is invoked a new context is created and pushed to the callstack..... 
+And lastly the global execution context is also deleted. 
