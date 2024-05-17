@@ -9,4 +9,6 @@
    In code phase js engines runs through code again and replace the undefined with there actual values (Example : a = 2) and then its exceutes . If we have function invocation again a new execution context is created and follows the same procedure of memory and code phase .
 
 ## Callstack 
-This helps to keep the track of the order of  execution contexts . Deep function invocation context and even deletes each execution context after it returns the value. And there is nothing to execute  
+This helps to keep the track of the order of  execution contexts . Deep function invocation context and even deletes each execution context after it returns the value. And there is nothing to execute.
+
+And when the sqaure function is invoked a new context is created and pushed to the callstack..... 
